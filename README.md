@@ -24,5 +24,5 @@ git clone https://github.com/JucelioAmaral/WebAppDependencyInjection.git
 
 ## Auxílio para uso e construção:
 
-1. [Tutorial de exemplo 1] (https://www.tektutorialshub.com/asp-net-core/asp-net-core-dependency-injection-lifetime/)
-2. [Tutorial de exemplo 2] (https://www.ti-enxame.com/pt/c%23/addtransient-addscoped-e-addsingleton-services-differences/825864696/)
+1. [Tutorial de exemplo 1](https://www.tektutorialshub.com/asp-net-core/asp-net-core-dependency-injection-lifetime/)
+2. [Tutorial de exemplo 2](https://www.ti-enxame.com/pt/c%23/addtransient-addscoped-e-addsingleton-services-differences/825864696/)
