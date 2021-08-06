@@ -1,0 +1,32 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome to DI Scoped, Transient and Singleton</h1>
+    <p>Learn about <a href="https://www.tektutorialshub.com/asp-net-core/asp-net-core-dependency-injection-lifetime/">Dependency Injection Lifetime: Transient, Singleton & Scoped</a>.</p>
+</div>
+
+<h3>Transient Service</h3>
+@ViewBag.message1
+</br>
+@ViewBag.message2
+<h5>Explanation: </h5><p>The Transient services always create a new instance, every time we request for it.</p>
+</br>
+</br>
+
+
+<h3>Scoped Service</h3>
+@ViewBag.message3
+</br>
+@ViewBag.message4
+<h5>Explanation: </h5><p>Service scoped are created only once per each request. It creates a new instance per request and reuses that instance within that request.</p>
+</br>
+</br>
+
+<h3>Singleton Service</h3>
+@ViewBag.message5
+</br>
+@ViewBag.message6
+<h5>Explanation: </h5><p>Singletons are created only once and not destroyed until the end of the Application.</p>
+
